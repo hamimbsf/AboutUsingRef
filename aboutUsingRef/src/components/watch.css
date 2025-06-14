@@ -1,0 +1,88 @@
+/* Base setup */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Inter", "Segoe UI", sans-serif;
+  background-color: #f4f6f8;
+  color: #1f2937;
+}
+
+/* Wrapper layout */
+.stopwatch-wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card styling */
+.stopwatch-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  width: 320px;
+  text-align: center;
+}
+
+/* Title */
+.stopwatch-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+/* Time display */
+.stopwatch-display {
+  font-size: 2.75rem;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  color: #111827;
+  margin-bottom: 2rem;
+}
+
+.unit {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #6b7280;
+  margin-left: 6px;
+}
+
+/* Buttons container */
+.stopwatch-controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.6rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-start {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-start:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-stop {
+  background-color: #f87171;
+  color: white;
+}
+
+.btn-stop:hover {
+  background-color: #ef4444;
+}
